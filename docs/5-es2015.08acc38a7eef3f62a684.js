@@ -1,5 +1,5 @@
 (window.webpackJsonp = window.webpackJsonp || []).push([
-  [4],
+  [5],
   {
     '8iGT': function(t, e, i) {
       'use strict';
@@ -101,7 +101,7 @@
         constructor(t) {
           (this.store = t),
             (this.examples = [
-              { link: 'file-upload', label: 'anms.examples.menu.file-upload' },
+              { link: 'file-upload', label: 'File Upload' },
               { link: 'config', label: 'Config' }
             ]);
         }
@@ -3058,7 +3058,7 @@
         xe = i('NxuZ'),
         Oe = i('5i2S'),
         De = i('PCNd');
-      const we = { title: 'anms.examples.menu.file-upload' },
+      const we = { title: 'File Upload' },
         ke = { title: 'Config' };
       class Pe {}
       const je = Object(A.v)('[Todos] Add', (t, e = Object(Qt.v4)()) => ({

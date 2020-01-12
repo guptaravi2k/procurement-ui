@@ -32,7 +32,7 @@ export class ExamplesComponent implements OnInit {
     { link: 'notifications', label: 'anms.examples.menu.notifications' },
     { link: 'elements', label: 'anms.examples.menu.elements' },
     { link: 'authenticated', label: 'anms.examples.menu.auth', auth: true },*/
-    { link: 'file-upload', label: 'anms.examples.menu.file-upload' },
+    { link: 'file-upload', label: 'File Upload' },
     { link: 'config', label: 'Config' }
   ];
 

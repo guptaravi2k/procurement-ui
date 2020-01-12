@@ -80,7 +80,7 @@ const routes: Routes = [
       {
         path: 'file-upload',
         component: FileUploadComponent,
-        data: { title: 'anms.examples.menu.file-upload' }
+        data: { title: 'File Upload' }
       },
       {
         path: 'config',

@@ -1,5 +1,5 @@
 (window.webpackJsonp = window.webpackJsonp || []).push([
-  [3],
+  [4],
   {
     '8iGT': function(t, e, n) {
       'use strict';
@@ -101,10 +101,7 @@
           function t(t) {
             (this.store = t),
               (this.examples = [
-                {
-                  link: 'file-upload',
-                  label: 'anms.examples.menu.file-upload'
-                },
+                { link: 'file-upload', label: 'File Upload' },
                 { link: 'config', label: 'Config' }
               ]);
           }
@@ -3241,7 +3238,7 @@
         ye = n('FOLC'),
         xe = n('qXP9'),
         Oe = n('PCNd'),
-        Ce = { title: 'anms.examples.menu.file-upload' },
+        Ce = { title: 'File Upload' },
         De = { title: 'Config' },
         we = (function() {
           return function() {};
