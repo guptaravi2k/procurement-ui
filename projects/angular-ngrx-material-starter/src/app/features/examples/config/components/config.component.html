@@ -1,0 +1,23 @@
+<div class="container">
+  <h2>columns</h2>
+  <div cdkDropList #columns="cdkDropList" [cdkDropListData]="columnConfig.columns"
+       [cdkDropListConnectedTo]="[xaxisRef, yaxisRef]" class="movie-list" (cdkDropListDropped)="onDrop($event)">
+    <div class="movie-block" *ngFor="let column of columnConfig.columns" cdkDrag>{{column}}</div>
+  </div>
+</div>
+<div class="container">
+  <h2>xaxis</h2>
+  <div cdkDropList #xaxisRef="cdkDropList" [cdkDropListData]="columnConfig.xaxis"
+       [cdkDropListConnectedTo]="[columns]" class="movie-list" (cdkDropListDropped)="onDrop($event)">
+    <div class="movie-block" *ngFor="let xaxis of columnConfig.xaxis" cdkDrag>{{xaxis}}</div>
+  </div>
+</div>
+<div class="container">
+  <h2>yaxis</h2>
+  <div cdkDropList #yaxisRef="cdkDropList" [cdkDropListData]="columnConfig.yaxis"
+       [cdkDropListConnectedTo]="[columns]" class="movie-list" (cdkDropListDropped)="onDrop($event)">
+    <div class="movie-block" *ngFor="let yaxis of columnConfig.yaxis" cdkDrag>{{yaxis}}</div>
+  </div>
+</div>
+
+<button type="button" (click) = "saveColunConfig()">save</button>
