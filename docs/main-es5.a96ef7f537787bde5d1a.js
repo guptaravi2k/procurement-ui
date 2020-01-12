@@ -8794,9 +8794,7 @@
           'contributors:add': 'all-contributors add',
           'contributors:generate':
             'all-contributors generate && node .all-contributors-html.js',
-          'contributors:check': 'all-contributors check',
-          deploy:
-            'ng build --prod --base-href https://guptaravi2k.github.io/procurement-ui && angular-cli-ghpages --branch gh-pages'
+          'contributors:check': 'all-contributors check'
         },
         husky: {
           hooks: {
