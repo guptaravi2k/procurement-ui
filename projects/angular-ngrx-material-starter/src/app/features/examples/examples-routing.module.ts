@@ -85,7 +85,7 @@ const routes: Routes = [
       {
         path: 'config',
         component: ConfigComponent,
-        data: { title: 'anms.examples.menu.config' }
+        data: { title: 'Config' }
       }
     ]
   }

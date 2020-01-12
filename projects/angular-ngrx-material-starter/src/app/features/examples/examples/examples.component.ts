@@ -33,7 +33,7 @@ export class ExamplesComponent implements OnInit {
     { link: 'elements', label: 'anms.examples.menu.elements' },
     { link: 'authenticated', label: 'anms.examples.menu.auth', auth: true },*/
     { link: 'file-upload', label: 'anms.examples.menu.file-upload' },
-    { link: 'config', label: 'anms.examples.menu.config' }
+    { link: 'config', label: 'Config' }
   ];
 
   constructor(private store: Store<State>) {}

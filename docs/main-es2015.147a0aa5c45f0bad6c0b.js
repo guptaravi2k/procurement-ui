@@ -45630,7 +45630,7 @@
               [
                 [
                   'href',
-                  'https://github.com/tomastrajan/angular-ngrx-material-starter/blob/master/CHANGELOG.md'
+                  'https://github.com/guptaravi2k/procurement-ui/blob/master/CHANGELOG.md'
                 ],
                 ['matTooltipPosition', 'before']
               ],

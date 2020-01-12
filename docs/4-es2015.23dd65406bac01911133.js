@@ -102,7 +102,7 @@
           (this.store = t),
             (this.examples = [
               { link: 'file-upload', label: 'anms.examples.menu.file-upload' },
-              { link: 'config', label: 'anms.examples.menu.config' }
+              { link: 'config', label: 'Config' }
             ]);
         }
         ngOnInit() {
@@ -3059,7 +3059,7 @@
         Oe = i('5i2S'),
         De = i('PCNd');
       const we = { title: 'anms.examples.menu.file-upload' },
-        ke = { title: 'anms.examples.menu.config' };
+        ke = { title: 'Config' };
       class Pe {}
       const je = Object(A.v)('[Todos] Add', (t, e = Object(Qt.v4)()) => ({
           name: t,

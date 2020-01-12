@@ -105,7 +105,7 @@
                   link: 'file-upload',
                   label: 'anms.examples.menu.file-upload'
                 },
-                { link: 'config', label: 'anms.examples.menu.config' }
+                { link: 'config', label: 'Config' }
               ]);
           }
           return (
@@ -3242,7 +3242,7 @@
         xe = n('qXP9'),
         Oe = n('PCNd'),
         Ce = { title: 'anms.examples.menu.file-upload' },
-        De = { title: 'anms.examples.menu.config' },
+        De = { title: 'Config' },
         we = (function() {
           return function() {};
         })(),
