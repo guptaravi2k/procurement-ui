@@ -13069,7 +13069,7 @@
       });
       const i = n('9RND'),
         s = {
-          appName: 'Angular Ngrx Material Starter',
+          appName: 'Procurement Portal',
           envName: 'PROD',
           production: !0,
           test: !1,
@@ -44874,10 +44874,7 @@
               'a',
               [
                 ['class', 'mat-list-item'],
-                [
-                  'href',
-                  'https://github.com/tomastrajan/angular-ngrx-material-starter'
-                ],
+                ['href', 'https://github.com/guptaravi2k/procurement-ui'],
                 ['mat-list-item', ''],
                 ['target', '_blank']
               ],
@@ -45393,10 +45390,7 @@
               'a',
               [
                 ['class', 'link d-none d-sm-inline'],
-                [
-                  'href',
-                  'https://github.com/guptaravi2k/angular-ngrx-material-starter'
-                ],
+                ['href', 'https://github.com/guptaravi2k/procurement-ui'],
                 ['mat-icon-button', ''],
                 ['matTooltipPosition', 'before'],
                 ['target', '_blank']
